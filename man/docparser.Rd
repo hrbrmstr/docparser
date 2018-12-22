@@ -4,8 +4,15 @@
 \name{docparser}
 \alias{docparser}
 \alias{docparser-package}
-\title{...}
+\title{Tools to Upload/Parse Documents to 'docparser' and Retrieve Extracted Results}
 \description{
+The 'docparser' (\url{https://docparser.com}) service enables users to visually
+define extraction regions for documents then use a 'REST' 'API' endpoint
+(\url{https://dev.docparser.com/}) to upload documents and retrieve parsed
+results. Tools are provided to query available parsers, upload documents
+and retrieved parsed results.
+}
+\details{
 \itemize{
 \item URL: \url{https://gitlab.com/hrbrmstr/docparser}
 \item BugReports: \url{https://gitlab.com/hrbrmstr/docparser/issues}
